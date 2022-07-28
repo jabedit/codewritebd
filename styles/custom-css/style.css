@@ -1,25 +1,40 @@
-:root {
-    --bs-black: #090c3c;
-    --bs-white: #fff;
-    --bs-light-white: #fcfcfc;
-    --bs-light-2: #f2f2f2;
-    --bs-blue: #0d9d80;
-    --bg-dark-green: #0d9d80;
-    --bg-features-1:#fff6d6;
-    --bg-features-2:#edbcf9;
-    --bg-features-3:#ddf5fc;
-    --bg-features-1:#dcf5e8;
-    --bg-features-1:#784925;
-    --bg-features-1:#fbffd4;
-    
-    --text-white: #fff;
-    --text-white: #000;
-    --text-light-1: #798081;
-    --text-light-2: #5e5e72;
-    --text-light-3: #a0a0a0;
-    --text-dark-gray: #12c4a0;
-    --text-orange: #ff5d20;
-    --text-yellow: #ffc100;
-    
-    --
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+  /* slider css  */
+  .carousel-item{
+    height: 100vh;
+    min-height: 20rem;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+  }
+  .carousel-item{
+    height: auto;
+  }
+
+  .carousel-item::before{
+    content: "" ;
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    background: #000;
+    opacity: 0.7;
+  }
+  .carousel-caption{
+    bottom: 13rem !important;
+    padding-left: 2.25rem !important;
+    padding-right: 2.25rem !important;
+  }
+  .carousel-caption h2{
+    font-size: 5rem;
+    font-weight: bold;
   }

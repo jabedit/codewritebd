@@ -1,0 +1,38 @@
+@media only screen and (max-width: 576px) 
+  {
+    .carousel-item .responsive-img{
+      width: 100% !important;
+        height: auto !important;
+    }
+    .carousel-caption{
+        bottom: 0 !important;
+        padding: 1rem !important;
+        
+      }
+      .carousel-caption h2{
+        font-size: 2rem;
+      }
+      .course-card {
+        display: flex !important;
+        flex-direction: column !important;
+      }
+      .course-card img{
+        width: 100% !important;
+        height: auto;
+      }
+      
+}
+@media only screen and (min-width: 577px) and (max-width:776px){
+    .carousel-caption{
+        bottom: 0 !important;
+        padding: 3rem !important;
+        
+      }
+}
+@media only screen and (min-width: 777px) and (max-width:992px){
+    .carousel-caption{
+        bottom: 0 !important;
+        padding: 4rem !important;
+        
+      }
+}
