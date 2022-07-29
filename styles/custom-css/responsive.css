@@ -1,4 +1,9 @@
-@media only screen and (max-width: 576px) 
+@media only screen and (max-width: 375px) {
+  .carousel-caption p {
+    display: none;
+  }
+}
+/* @media only screen and (max-width: 576px) 
   {
     .carousel-item .responsive-img{
       width: 100% !important;
@@ -10,10 +15,12 @@
         
       }
       .carousel-caption h2{
-        font-size: 2rem;
+        font-size: 3rem;
       }
       
-
+     .ready-join-section-text-style{
+        text-align: center !important;
+     }
       
       
 }
@@ -26,11 +33,23 @@
       .ready-join-section-text-style{
         text-align: center !important;
       }
+} */
+@media only screen and  (max-width:992px){
+  .carousel-caption {
+    top: 15% !important;
+  }
+  .carousel-caption > * {
+    margin-bottom: 5px;
+  }
+  .carousel-caption h5 {
+    font-size: 1.3rem !important;
+  }
+  .carousel-caption p {
+    font-size: 1rem !important;
+  }
+  .carousel-caption button {
+    font-size: 1rem !important;
+  }
 }
-@media only screen and (min-width: 777px) and (max-width:992px){
-    .carousel-caption{
-        bottom: 0 !important;
-        padding: 4rem !important;
-        
-      }
-}
+
+

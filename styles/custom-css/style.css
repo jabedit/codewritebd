@@ -8,7 +8,7 @@ body{
   font-family: 'Poppins', sans-serif;
 }
   /* slider css  */
-  .carousel-item{
+  /* .carousel-item{
     height: 100vh;
     min-height: 20rem;
     background: no-repeat scroll center scroll;
@@ -19,6 +19,7 @@ body{
   }
 
   .carousel-item::before{
+    height: auto;
     content: "" ;
     display: block !important;
     position: absolute !important;
@@ -37,4 +38,4 @@ body{
   .carousel-caption h2{
     font-size: 5rem;
     font-weight: bold;
-  }
+  } */
