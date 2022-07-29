@@ -3,21 +3,11 @@
     display: none;
   }
 }
-/* @media only screen and (max-width: 576px) 
-  {
-     .ready-join-section-text-style{
-        text-align: center !important;
-     }
-      
-      
-}
-@media only screen and (min-width: 577px) and (max-width:776px){
-    
-      .ready-join-section-text-style{
-        text-align: center !important;
-      }
-} */
+ 
 @media only screen  and  (max-width:992px){
+  .carousel-items{
+    height: auto !important;
+  }
   .carousel-caption {
     top: 15% !important;
   }
